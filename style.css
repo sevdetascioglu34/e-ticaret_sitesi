@@ -1,0 +1,570 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header img{
+    border-radius:4rem;
+    width:5.5rem;
+    height:5rem;
+    margin-left:1rem;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(159, 255, 255);
+    position:sticky;
+    top:0;
+}
+.button{
+background-color:#fff;
+color:black;
+font-weight:bold;
+padding:1rem;
+width:7rem;
+border-radius:1rem;
+cursor:pointer;
+margin-top:0.3rem;
+}
+.button:hover{
+    transition:0.5s ease;
+    background-color:rgb(253, 253, 92);
+    color:#fff;
+}
+.search{
+    margin-top:1rem;
+    display: flex;
+}
+.search input{
+    color:black;
+    width:450px;
+    height:50px;
+    border-radius:1rem;
+}
+.btn-search{
+    color:#000;
+  margin-top:1rem;   
+  cursor:pointer;
+  font-weight:bold;
+}
+.btn-search:hover{
+    color:darkcyan;
+}
+.p{
+    margin-top:0.5rem;
+    font-size:0.7rem;
+    color:#000;
+}
+.p:hover{
+    color:#000;
+    transition:0.5s ease;
+}
+.p2{
+    margin-top:0.3rem;
+}
+.p1{
+    margin-top:0.3rem;
+}
+.swiper{
+    width:80%;
+   height:auto;
+}
+.swiper-slide img{
+    width:70%;
+    object-fit: cover;
+    margin-left:200px;
+    border-radius:0.5rem;
+    position:center;
+    align-items:center;
+    
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color:aqua;
+}
+.image{
+    display:flex;
+    height:100vh;
+    background-color:rgb(221, 249, 249);
+}
+.swiper-button-next {
+    margin-right:40px;
+}
+.swiper-button-prev{
+    margin-left:200px;
+}
+.swiper-pagination
+{
+    margin-right:400px;
+}
+.link{
+    display:flex;
+    font-size:1.3rem;
+    color:#000;
+    margin-top:1rem;
+    margin-left:3rem;
+}
+.link i{
+    margin-top:0.5rem;
+}
+.kargo{
+    display:flex;
+    margin-top:8.5rem;
+    background-color: #fff;
+    width:100%;
+    gap:2rem;
+    border-radius:2rem;
+    padding:13px;
+    width:690px;
+    margin-left:3rem;
+    align-items:center;
+    text-align:center;
+}
+.category{
+    flex-basis:50%;
+}
+.links{
+    font-size:1.2rem;
+    margin-top:2.5rem;
+    margin-left:1rem;
+}
+.kargo p{
+    font-size:1rem;
+}
+.paragraf{
+    margin-top:1rem;
+    position:relative;
+    color:pink;
+    font-size:2rem;
+    letter-spacing:3px;
+    user-select: none;
+    outline:none;
+}
+.links p{
+    font-size:1.2rem;
+    color:#000;
+}
+.paragraf p{
+cursor:pointer;
+    font-weight: bold;
+    margin:1.5rem;
+    margin-left:3rem;
+}
+.paragraf p:hover{
+    color:orangered;
+}
+.s6{
+    margin-left:23rem;
+}
+.s1{
+ margin-top:0.5rem;
+    margin-left:3rem;
+    font-weight:bold;
+}
+.s2{
+    margin-top:0.5rem;
+    margin-left:3rem;
+    font-weight:bold;
+}
+.s3{
+    margin-top:0.5rem;
+    margin-left:3rem;
+    font-weight:bold;
+}
+.s4{
+    margin-top:0.5rem;
+    margin-left:3rem;
+    font-weight:bold;
+}
+.s5{
+    margin-top:0.5rem;
+    margin-left:3rem;
+    font-weight:bold;
+}
+.swiperi{
+    width:80%;
+    height:fit-content;
+}
+
+.swiperi-slide img{ 
+width:100%;
+}
+.gönderi{
+    background-color:rgb(157, 243, 157);
+    color:black;
+border-radius:1rem;
+    padding:0.5rem 0.5rem;
+    width:6rem;
+}
+.gönderi p{
+    font-weight: bold;
+}
+.kargoo{
+    border-radius:1rem;
+    background-color:rgb(230, 252, 34);
+    color:#000;
+    font-weight:bold;
+    padding:0.5rem 0.5rem;
+    width:6rem;
+}
+.açıklama{
+    font-weight:bold;
+}
+.birlestir{
+    display:flex;
+    gap:0.5rem;
+}
+.box-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));
+gap:15px;
+}
+.yıldız{
+    color:yellow;
+}
+.yıldıziçerik{
+    display:flex;
+}
+.box{
+    background-color:rgb(185, 249, 179);
+    gap:15px;
+}
+.sepett{
+    border:1px solid rgb(224, 97, 23);
+    border-width:3px;
+    color:rgb(226, 96, 26);
+    max-width:156px;
+    cursor:pointer;
+}
+.sepett:hover{
+    background-color:rgb(224, 97, 23);
+    color:#fff;
+    transition:0.5s ease;
+}
+.sepett p{
+    text-align:center;
+}
+.parça{
+    background-color: rgb(215, 250, 250);
+}
+.parça h1{
+    font-size:2rem;
+  
+}
+.kamera{
+    background-color: rgb(215, 250, 250);
+
+}
+.alarm{
+    background-color:rgb(221, 249, 249);
+}
+.çevre{
+    background-color:rgb(221, 249, 249);
+}
+.ps{
+    background-color:rgb(221, 249, 249);
+}
+.network{
+    background-color:rgb(221, 249, 249);
+}
+.kart{
+    display:flex;
+    column-gap:1rem;
+    justify-content: space-around;
+}
+.axess{
+    margin-top:1rem;
+    width:100px;
+    border:1px solid rgb(98, 98, 98);
+    margin-left:1rem;
+}
+.footer{
+    margin-top:1rem;
+background-color:#000;
+    display:flex;
+}
+.adres,.linkler{
+    color:#fff;
+}
+.adres{
+font-size:1.3rem;
+    display:flex;
+    margin-top:0.5rem;
+}
+.linkler{
+    display:flex;
+    margin-left:0.5rem;
+    font-size:1.3rem;
+    column-gap:0.5rem;
+}
+.linkler h1{
+    font-size:1.3rem;
+    margin-left:0.5rem;
+}
+.telefon{
+    margin-top:0.5rem;
+    color:#fff;
+    margin-left:0.5rem;
+}
+.orta h2{
+    margin-top:0.8rem;
+    color:#fff;
+    font-size:1.2rem;
+    margin-left:0.5rem;
+}
+.flex{
+    display:flex;
+    font-weight:bold;
+}
+.dipnot{
+    color:#fff;
+    margin-left:0.5rem;
+    margin-top:0.4rem;
+}
+.dipnott{
+    color:#fff;
+    margin-top:5rem;
+    text-align:center;
+    font-size:0.9rem;
+}
+.dipnott h1{
+    color:rgb(140, 222, 255);
+    font-weight:bold;
+    }
+.wp:hover{
+    transition:0.5s ease;
+    color:aquamarine;
+    cursor:pointer;
+}
+.facebook:hover{
+    transition:0.5s ease;
+    color:rgb(26, 110, 213);
+    cursor:pointer;
+}
+.instagram:hover{
+    color:rgb(210, 66, 90);
+    cursor:pointer;
+    transition:0.5s ease;
+}
+.youtube:hover{
+cursor:pointer;
+transition:0.5s ease;
+color:red;
+}
+.adres span{
+    font-weight:bold;
+}
+.border{
+    margin:35rem 35rem;
+    margin-top:6rem;
+width:400px;
+height:400px;
+    align-items:center;
+    text-align:center;
+    background-color: rgb(79, 248, 248);
+}
+.border h1{
+    color:#000;
+    font-weight:bold;
+border-bottom: 1px solid ;
+    margin-top:1rem;
+}
+form{
+    margin-top:0.5rem;
+}
+.p3{
+     margin-top:0.8rem;
+}
+.p1{
+    margin-top:1.2rem;
+    font-weight:bold;
+    margin-left:0.5rem;
+    font-size:1rem;
+}
+.p2{
+    margin-top:0.7rem;
+    font-weight:bold;
+    margin-left:0.5rem;
+}
+.p4{
+    font-weight:bold;
+    margin-left:0.5rem;
+    margin-top:0.5rem;
+}
+.btn{
+    margin-top:1rem;
+    background-color:#fff;
+    border-radius:0.9rem;
+width:10rem;
+}
+.btn:hover{
+background-color:aqua;
+color:#000;
+cursor:pointer;   
+}
+.p7,.p8{
+    font-weight:bold;
+}
+.btn i{
+    color:red;
+}
+.border-container{
+    background-image: url(image/arka.jpg);
+}
+.border-container h3{
+    color:transparent;
+}
+.shopping{
+font-weight:bold;
+
+}
+.shoppingg{
+    background-image:url(image/açıkturuncu.jpg);
+    background-position: center;
+    padding:10rem 10rem;
+}
+.shopping i{
+    font-size:18rem;
+    color:yellow
+    ;
+    align-items:center;
+    margin-left:23rem;
+}
+.shopping p{
+    text-align:center;
+}
+.shopping h2{
+    font-size:2rem;
+    margin-top:1.4rem;
+    margin-left:25rem;
+}
+.shopping p{
+    font-size:1.5rem;
+}
+.shopping p span{
+    font-weight:bold;
+    color:rgb(204, 255, 0);
+}
+.sipariş h1{
+    font-size:3rem;
+    color:rgb(240, 79, 106);
+    border-bottom:2px solid rgb(240,79,106);
+}
+.sipariş{
+    background-image:url(image/pembe.jpg);
+    background-position: center;
+    height:100vh;
+
+}
+.btnn button{
+    font-size:1.1rem;
+    background-color:pink;
+    color:#000;
+    margin-left:1rem;
+    border-radius:2rem;
+    margin-top:2rem;
+    padding:0.5rem;
+}
+.sipariş-container{
+    background-color:#ffeeee;
+    width:30rem;
+    height:20rem;
+    border-radius:2rem;
+    margin-left:32rem;
+}
+.box .img{
+    overflow:hidden;
+    width:100%;
+}
+.box .img img{
+    object-fit:cover;
+    width:100%;
+}
+.sipariş p{
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-top:1rem;
+    background-color:pink;
+}
+.btnn button:hover{
+    background-color:#fff;
+    color:#000;
+    cursor:pointer;
+
+}
+.sipariş-container form{
+    margin-left:1rem;
+    margin-top:2rem;
+    align-items:center;
+}
+.sipariş p span{
+    color:rgb(240,79,106);
+    font-weight:bold;
+}
+.paragraf .s1{
+background-color:rgb(113, 255, 255);
+width:17rem;
+}
+.paragraf .s6{
+ width:19rem;
+    background-color:rgb(159, 255, 255);
+}
+.paragraf .s2{
+    background-color:rgb(115, 255, 255);
+    width:14rem;
+}
+.paragraf .s3{
+width:17rem;
+    background-color:rgb(90, 255, 255);
+}
+
+.paragraf .s4{
+    width:17rem;
+    background-color:rgb(147, 255, 255);
+}
+.paragraf .s5{
+    background-color:rgb(159, 255, 255);
+    width:23rem;
+}
+.paragraf .s7{
+    background-color:rgb(130, 254, 254);
+    width:16rem;
+}
+
+.paragraf .s1:hover{
+    background-color:yellow;
+    width:17rem;
+    text-decoration: none;}
+    .paragraf .s6:hover{
+     width:19rem;
+     background-color:yellow;
+     text-decoration: none;}
+    .paragraf .s2:hover{
+        background-color:yellow;
+        width:14rem;
+        text-decoration: none;}
+    .paragraf .s3:hover{
+    width:17rem;
+    background-color:yellow;
+    text-decoration: none;}
+    
+    .paragraf .s4:hover{
+        width:17rem;
+        background-color:yellow;
+        text-decoration: none;
+    }
+    .paragraf .s5:hover{
+        background-color:yellow;
+        width:23rem;
+        text-decoration: none;
+    }
+    .paragraf .s7:hover{
+        background-color:yellow;
+        text-decoration: none;
+            width:16rem;
+    }

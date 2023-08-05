@@ -1,0 +1,2047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SN BİLGİSAYAR VE GÜVENLİK</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<img src="image/Ekran görüntüsü 2023-07-26 111321 - Kısayol.lnk" alt="logo">
+
+<div class="search">
+    <input type="text" placeholder="Aramak istediğiniz ürünü girin.."/>
+    <a class="btn-search">
+        <i class="fas fa-search"></i>
+    </a>
+</div>
+<div class="sepet">
+  <a href="giriş.html">
+    <button class="button">
+      <i class="fa-solid fa-user"></i>
+      <p class="p2">Giriş Yap</p>
+     
+    </button>
+    </a>
+    <a href="sipariş.html">
+<button class="button">
+  <a href="sipariş.html">
+    <i class="fa-solid fa-van-shuttle"></i>
+    <p class="p">Sipariş Takibi</p>
+ 
+</button>
+</a>
+<a href="sepetim.html">
+<button class="button">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <p class="p1">Sepetim</p>
+  </a>
+</button>
+</a>
+</div>
+</div>
+<section class="image">
+    <div class="category">
+      <div class="links">
+        <div class="link">
+          <i class="fa-solid fa-bars"></i>
+          <h1>KATEGORİLER</h1>
+        </div>
+   <div class="paragraf">
+    <p class="s6" ><a href="#bilgisayarparçaları">BİLGİSAYAR PARÇALARI</a></p>
+    <p class="s1"><a href="#kamerasistemleri">KAMERA SİSTEMLERİ</a></p>
+    <p class="s7"><a href="#alarmsistemleri">ALARM SİSTEMLERİ</a></p> 
+    <p class="s2"><a href="#çevrebirimleri">ÇEVRE BİRİMLERİ</a></p>
+    <p class="s3"><a href="#depolamaürünleri">DEPOLAMA ÜRÜNLERİ</a></p> 
+    <p class="s4"><a href="#networkürünleri">NETWORK ÜRÜNLERİ</a></p>
+    <p class="s5"><a href="#playstationvekonsollar">PLAYSTATİON VE KONSOLLAR</a></p>
+    
+   </div>
+      
+      </div>
+     
+    
+<div class="kargo">
+  <div class="teslimat">
+    <i class="fa-solid fa-truck"></i>
+    <p>Standart Teslimat</p>
+  </div>
+  <div class="teslimat2">
+    <i class="fa-solid fa-truck-fast"></i>
+    <p>Hızlı Teslimat</p>
+  </div>
+<div class="mağaza">
+  <i class="fa-solid fa-shop"></i>
+  <p>Mağazadan Teslim</p>
+</div>
+ <div class="bedava">
+  <i class="fa-solid fa-bag-shopping"></i>
+  <p>Kargo Bedava</p>
+ </div>
+ <div class="müşteri">
+  <i class="fa-solid fa-users"></i>
+  <p>7/24 Müşteri Desteği</p>
+ </div>
+<div class="telephone">
+  <i class="fa-solid fa-phone-volume"></i>
+  <p>Telefonla Sipariş</p>
+</div>
+ <div class="iade">
+  <i class="fa-solid fa-right-left"></i>
+  <p>Kolay İade</p>
+ </div>
+ <div class="garanti">
+  <i class="fa-solid fa-screwdriver-wrench"></i>
+  <p>Garantili Ürünler</p>
+ </div>
+
+</div>
+    </div>
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="image/WhatsApp Image 2023-07-26 at 13.07.57.jpeg" height="625"></div>
+      <div class="swiper-slide"><img src="image/WhatsApp Image 2023-07-26 at 17.20.42.jpeg" height="625"></div>
+      <div class="swiper-slide"><img src="image/WhatsApp Image 2023-07-26 at 17.21.00.jpeg" height="625"></div>
+      <div class="swiper-slide"><img src="image/WhatsApp Image 2023-07-26 at 13.08.25.jpeg" height="625"></div>
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+   </section>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+autoplay:{
+    delay:3000,
+    disableOnInteraction:false,
+},
+  loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+const swiperi = new Swiperi('.swiperi', {
+autoplay:{
+    delay:3000,
+    disableOnInteraction:false,
+},
+  loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+<section class="parça" id="bilgisayarparçaları">
+    <h1>BİLGİSAYAR PARÇALARI</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="img">
+         <img src="image/anakart.jpg" width="300" height="300">
+        </div>
+        <div class="birlestir">
+          <div class="gönderi">
+            <p>HIZLI<br>GÖNDERİ</p>
+                </div>
+                <div class="kargoo">
+            <p>ÜCRETSİZ<br>KARGO</p>
+            </div>
+        </div>
+    <div class="açıklama">
+      <p>Turbox H55M Intel H55 1333 Mhz Ddr3 Soket 1156 Matx Anakart</p>
+      </div>
+      <div class="yıldıziçerik">
+        <div class="yıldız">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p>(483)</p>
+      </div>
+    
+    <div class="fiyat">
+    <p>1490.90 TL <span class="span"><del>1990.90 TL</del></span></p>
+    </div>
+    <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+    
+    
+      <div class="box">
+        <div class="img">
+          <img src="image/powersupply.jpg" width="300" height="300">
+         </div>
+         <div class="birlestir"> 
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+     <p>Frisby FR-PS6580P 650W 80 Plus 12cm Fan PowerSupply</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>999.99 TL <span><del>1299.90 TL</del></span></p>
+     </div> 
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+    </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/laptop.webp" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+     <p>Acer Aspire 3 A315-58 Intel Core i51165G7 8GB 256GB SSD Bilgisayar</p> 
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>6000 TL<span><del>8500 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/i3 işlemci.jpg" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+      <p>Intel Intel®CORE™i3-3240 3.40 GHz LGA1155 3mb 55W Işlemci Tray Kutusuz
+      </p> </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>499.80 TL <span><del>528.79 TL</del></span></p>
+     </div> 
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/i5.jpg" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+      <p>Intel Core i5-3470 3.2GHz 6MB Cache Tray İşlemci Kutusuz</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>799.89 TL<span><del>1029.90 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/i7.avif" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+      <p>Intel Core i7 860 2.8 GHz 8MB 64BIT LGA1156 İşlemci</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+      <p>1258.80 TL<span><del>1490.90 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/4gb ram.jpg" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+      <p>Kingston 4 Gb Ddr3 1600 Mhz Pc3-12800 Masaüstü Pc Ram (kvr16n11/4) 12470</p> </div> 
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>250 TL<span><del>300 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/8gb ram.webp" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+     <p>Kingston 8 GB 1600 Mhz Ddr3 Ram Cl11 Kvr16N11/8G</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>450 TL<span><del>500 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/16gg.webp" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     <div class="açıklama">
+     <p>Kingston 16GB 3200MHz DDR4 16GB 3200MHz DDR4 NON-ECC DIMM 2RX8 CL22 Ram</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>800 TL<span><del>950 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/ekrann.jpg" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+    <p>Turbox Battle Base N R7 240 Amd GDDR5 128Bit Vga-Dvi-Hdmi Tek Fan 2GB Ekran Kartı</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+      <p>1499 TL<span><del>1690 TL</del></span></p> 
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/seskartı.jpg" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+      <div class="açıklama">
+     <p>Hadron 51 Sound Usb Ses Kartı Virtual 3D Çevirici Dönüştürücü Hd4045</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+    <p>100 TL<span><del>239 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="image/soğutucu.jpg" width="300" height="300">
+         </div>
+         <div class="birlestir">
+           <div class="gönderi">
+             <p>HIZLI<br>GÖNDERİ</p>
+                 </div>
+                 <div class="kargoo">
+             <p>ÜCRETSİZ<br>KARGO</p>
+             </div>
+         </div>
+        
+     
+     <div class="açıklama">
+     <p>Deep Cool WIND PAL MINI 140X140X15mm Notebook Soğutucu</p>
+     </div>
+     <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+     <div class="fiyat">
+     <p>300 TL<span><del>339.90 TL</del></span></p>
+     </div>
+     <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+      </div>
+    </div>
+
+</section>
+<section class="kamera" id="kamerasistemleri">
+<h1>KAMERA SİSTEMLERİ</h1>
+<div class="box-container">
+  <div class="box">
+    <div class="img">
+<img src="image/2'li kamera.jpg " width="300" height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+<p>2 Kameralı Güvenlik Seti - 5 MP Sony Lensli Full HD 1080P 250 GB Hard Disk
+</p>    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>4600 TL<span><del>5300 TL</del></span></p>
+    </div>
+    <div class="sepett">
+      <p>Sepete Ekle</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="img">
+<img src="image/4'lü.jpg" width="300" height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+      <p>4 Kameralı Güvenlik Seti - 5 MP Sony Lensli Full HD 1080P 250 GB Hard Disk </p>
+    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>6000 TL<span><del>6459.90 TL</del></span></p>
+    </div>
+    <div class="sepett">
+<p>Sepete Ekle</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="img">
+<img src="image/8'li.jpg" width="300" height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+      <p>Elitcam 8’li 5 Megapiksel Sony Lens 1080P Aptina Sensör Güvenlik Kamerası Seti</p>
+    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>9300 TL<span><del>10.000 TL</del></span></p>
+    </div>
+    <div class="sepett">
+<p>Sepete Ekle</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="img">
+<img src="image/500GB.jpg" width="300" height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+      <p>Seagate Barracuda ST500DM009 3.5" 500 GB 7200 RPM 32 MB SATA 3 NCQ HDD</p>
+    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>1000 TL<span><del>1299.99 TL</del></span></p>
+    </div>
+    <div class="sepett">
+<p>Sepete Ekle</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="img">
+<img src="image/1TB.jpg" width="300" height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+      <p>Seagate 3.5" 1 TB Skyhawk St1000vx005 Sata 3.0 5900 Rpm Hard Disk 1153581
+      </p>    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>1500 TL <span><del>2000 TL</del></span></p>
+    </div>
+    <div class="sepett">
+<p>Sepete Ekle</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="img">
+<img src="image/2tbb.jpeg" width="300" height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+      <p>Seagate 3.5" 2 TB Skyhawk St1000vx005 Sata 3.0 5900 Rpm Hard Disk 1153581</p>
+    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>2000 TL<span><del>2320 TL</del></span></p>
+    </div>
+    <div class="sepett">
+<p>Sepete Ekle</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="img">
+<img src="image/camwayy.jpg" width="300 " height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+      <p>CAMWAY 5mp sony Lensli Fullhd Kamera Seti Su Geçirmez Gece Görüşlü Güvenlik Kamerası CCTV      </p>
+    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>700 TL<span><del>749 TL</del></span></p>
+    </div>
+    <div class="sepett">
+<p>Sepete Ekle</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="img">
+<img src="image/dahuakamera.jpg" width="300" height="300">
+    </div>
+    <div class="birlestir">
+      <div class="gönderi">
+        <p>HIZLI<br>GÖNDERİ</p>
+            </div>
+            <div class="kargoo">
+        <p>ÜCRETSİZ<br>KARGO</p>
+        </div>
+    </div>
+   
+    <div class="açıklama">
+    <p>Dahua Hac-b1a21-0360b 2mp 3.6mm Hdcvı Ahd Bullet Kamera TYC00200499956</p>  
+    </div>
+    <div class="yıldıziçerik">
+      <div class="yıldız">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>(483)</p>
+    </div>
+    
+    <div class="fiyat">
+<p>1200 TL<span><del>1500 TL</del></span></p>
+    </div>
+    <div class="sepett">
+<p>Sepete Ekle</p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<section class="alarm" id="alarmsistemleri">
+<h1>ALARM SİSTEMLERİ</h1>
+<div class="box-container">
+  <div class="box">
+    <div class="img">
+      <img src="image/Ekran görüntüsü 2023-07-27 203745 - Kısayol.lnk" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p> Rxr H-10-WF Kablosuz Dış ortam Sirenli Wifi Alarm Seti
+            </p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>2035 TL<span><del>2490 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/zil.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>6 Ses Tonlu Mini Alarm Sireni 20W 12V Max 133dba Carub</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>128.90 TL<span><del>219.90 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/dedektör.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>NEUTRON Ntl-ps-01rf Pır Dedektör Akıllı Alarm & Sensörler</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>253 TL<span><del>479.86 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/ensör.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p> WiFi PIR Pasif Kızılötesi Dedektör Güvenlik Hırsız Alarm Sensörü Tuya APP Kontrolü Akıllı Ev</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>322.89 TL<span><del>609 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>  
+  </div>
+</div>
+</section>
+
+<section class="çevre" id="çevrebirimleri">
+<h1>ÇEVRE BİRİMLERİ</h1>
+<div class="box-container">
+  <div class="box">
+    <div class="img">
+      <img src="image/19inç.webp" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>
+              Eurocam Ec-m19 19" 65hz 0,5ms (hdmı+vga+rca+ses) 1920 X 1080 Hd Lcd Monitör</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>3000 TL<span><del>3780 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/12V AKÜ.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Ttec 12 Volt 1.3A Akü - 12V 1.3 Ah Bakımsız Kuru Akü 2022 Üretim</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>500 TL<span><del>599 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/kablolu.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>	
+              HELLO HL-37 SLIM KASA 1000 DPI KABLOLU OPTİK MOUSE</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>50 TL<span><del>65 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/BEYAZ.png" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Everest Smw-666 Kablosuz Mouse 2.4ghz 1500dpı Beyaz EMBA02474</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>170 TL<span><del>235 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/everest.webp" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Everest KM-218 Usb 2.4Ghz Siyah Kumaş Desenli Kablosuz Mouse</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>200 TL<span><del>220 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/siyahmaoy.avif" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Everest Sm-803 Kablosuz Mouse 2.4ghz 1600dpı EMBA02385</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>150 TL<span><del>195 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/16gb.webp" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p> Concord C-U16 16 GB Usb 2.0 Data Traveler Flash Bellek Metal</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>150 TL<span><del>170 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/32gb.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>KINGSTON DTX/32GB USB 3.2 Data Traveler Exodia Gen 1 Flash Disk</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>200 TL<span><del>230 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/64gb.jpeg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Kingston Dtxm/64 64gb Usb3.2 Gen.1 Datatraveler Exodia M Usb Flash Bellek Dtxm 64 DTXM</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>250 TL<span><del>270 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/128gb.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Kingston Dtxm/128 128 GB Usb3.2 Gen.1 Datatraveler Exodia M Usb Flash Bellek 128 DTXM</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>300 TL<span><del>325 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/22inç.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Eurocam Ec-m22 22" 65hz 0,5ms (hdmı+vga+rca+ses) 2000 X 1200 Hd Lcd Monitör</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>3500 TL<span><del>4250 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/kulak.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>SNOOPY Snopy Sn-101 Bonny Siyah Pctelefon Mikrofonlu Kulaklık SN-101</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>400 TL<span><del>558.90 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+</div>
+
+
+</section>
+<section class="depolama" id="depolamaürünleri">
+  <h1>DEPOLAMA ÜRÜNLERİ</h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="img">
+        <img src="image/129GBSSD.avif" width="300 " height="300">
+            </div>
+            <div class="birlestir">
+              <div class="gönderi">
+                <p>HIZLI<br>GÖNDERİ</p>
+                    </div>
+                    <div class="kargoo">
+                <p>ÜCRETSİZ<br>KARGO</p>
+                </div>
+            </div>
+           
+            <div class="açıklama">
+              <p>FURY E-sport 128 Gb 550mb-500mb/s Sata3 2,5 Gaming SSD ES</p>
+            </div>
+            <div class="yıldıziçerik">
+              <div class="yıldız">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>(483)</p>
+            </div>
+            
+            <div class="fiyat">
+        <p>400 TL<span><del>518.90 TL</del></span></p>
+            </div>
+            <div class="sepett">
+        <p>Sepete Ekle</p>
+            </div>    
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="image/hafiza.jpeg" width="300 " height="300">
+            </div>
+            <div class="birlestir">
+              <div class="gönderi">
+                <p>HIZLI<br>GÖNDERİ</p>
+                    </div>
+                    <div class="kargoo">
+                <p>ÜCRETSİZ<br>KARGO</p>
+                </div>
+            </div>
+           
+            <div class="açıklama">
+              <p>Sandisk Ultra 128gb 100mb/s Microsdxc Uhs-ı Hafıza Kartı SDSQUNR-GN6MN</p>
+            </div>
+            <div class="yıldıziçerik">
+              <div class="yıldız">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>(483)</p>
+            </div>
+            
+            <div class="fiyat">
+        <p>200 TL<span><del>210 TL</del></span></p>
+            </div>
+            <div class="sepett">
+        <p>Sepete Ekle</p>
+            </div>    
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="image/256ssd.jpg" width="300 " height="300">
+            </div>
+            <div class="birlestir">
+              <div class="gönderi">
+                <p>HIZLI<br>GÖNDERİ</p>
+                    </div>
+                    <div class="kargoo">
+                <p>ÜCRETSİZ<br>KARGO</p>
+                </div>
+            </div>
+           
+            <div class="açıklama">
+              <p>FURY E-sport 256 GB 550mb-500mb/s Sata3 2,5 Gaming SSD ES</p>
+            </div>
+            <div class="yıldıziçerik">
+              <div class="yıldız">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>(483)</p>
+            </div>
+            
+            <div class="fiyat">
+        <p>500 TL<span><del>770 TL</del></span></p>
+            </div>
+            <div class="sepett">
+        <p>Sepete Ekle</p>
+            </div>    
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="image/512ssd.jpg" width="300 " height="300">
+            </div>
+            <div class="birlestir">
+              <div class="gönderi">
+                <p>HIZLI<br>GÖNDERİ</p>
+                    </div>
+                    <div class="kargoo">
+                <p>ÜCRETSİZ<br>KARGO</p>
+                </div>
+            </div>
+           
+            <div class="açıklama">
+              <p>TURBOX Racetrap R Kta320 Sata3 520/400mbs 2.5'' 512GB Ssd Turbox KTA320</p>
+            </div>
+            <div class="yıldıziçerik">
+              <div class="yıldız">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>(483)</p>
+            </div>
+            
+            <div class="fiyat">
+        <p>700 TL<span><del>879.90 TL</del></span></p>
+            </div>
+            <div class="sepett">
+        <p>Sepete Ekle</p>
+            </div>    
+    </div>
+
+  </div>
+</section>
+<section class="network" id="networkürünleri">
+<h1>NETWORK ÜRÜNLERİ</h1>
+<div class="box-container">
+  <div class="box">
+    <div class="img">
+      <img src="image/hdmı vga.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Hdmi To Vga Hdmi To Vga Adaptör Çevirici Dönüştürücü</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>200 TL<span><del>239.90 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/vga.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Vga Kablosu 240Hz Destekli Ekran Lcd Monitör Bağlanti Kablosu</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>155 TL<span><del>199.90 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/display.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>HP Bizlink 1080p 240Hz Destekli FreeSync G-Sync Displayport Kablo</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>150 TL<span><del>189.90 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/internet.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>20 metre Reçber Cat 6 Kablo Internet Data Bağlantı Kablosu</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>320 TL<span><del>500 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+
+ 
+</div>
+</section>
+<section class="ps" id="playstationvekonsollar">
+<h1>PLAYSTATİON VE KONSOLLAR</h1>
+<div class="box-container">
+  <div class="box">
+    <div class="img">
+      <img src="image/ps3.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Sony Playstation 3 Slim 500 + 2 Oyun Kolu + 40 Oyun</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>5000 TL<span><del>5800 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/ps3kolu.avif" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>DOUBLESHOCK Mu-ca Double Ps3 Uyumlu Kablosuz Analog Oyun Kolu </p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>400 TL<span><del>479.80 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/ps4 2kollu.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Sony Ps4 Slim 500GB Konsol + 2. Ps4 2 Adet Kol Teşhir </p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>9000 TL<span><del>1019.99 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/kol .png" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Sarftech Ps4 Siyah Doubleshock Wireless Gamepad Joystick Kablosuz Ps4 Oyun Kolu</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>800 TL<span><del>999.99 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/ps4tek.avif" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Playstation 4 Oyun Konsolu 500GB Orjinal Kol God Of War PS4 Oyun</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>7500 TL<span><del>7950 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/ps5kolu.jpg" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Sony Playstation 5 Dualsense Controller Ps5 Kol (ithalatçı Garantili) HBV000018QZRJ</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>2600 TL<span><del>3200 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/fifa.webp" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+         
+          <div class="açıklama">
+            <p>Fifa 19 Playstation 4 Oyun PS4 Oyun PS4 Futbol Oyunu</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>
+          
+          <div class="fiyat">
+      <p>119 TL<span><del>159 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>
+  <div class="box">
+    <div class="img">
+      <img src="image/pes.avif" width="300 " height="300">
+          </div>
+          <div class="birlestir">
+            <div class="gönderi">
+              <p>HIZLI<br>GÖNDERİ</p>
+                  </div>
+                  <div class="kargoo">
+              <p>ÜCRETSİZ<br>KARGO</p>
+              </div>
+          </div>
+          <div class="açıklama">
+            <p>Pes 2017 Playstation 4 Oyun Ps4 Oyun Futbol Oyunu (2.el)</p>
+          </div>
+          <div class="yıldıziçerik">
+            <div class="yıldız">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>(483)</p>
+          </div>    
+          <div class="fiyat">
+      <p>169 TL<span><del>220 TL</del></span></p>
+          </div>
+          <div class="sepett">
+      <p>Sepete Ekle</p>
+          </div>    
+  </div>  
+</div>
+</section>
+<section class="kart">
+  <div class="axess">
+    <img src="image/axess.jpg" width="80" height="50">
+    <p>2+4 TAKSİT</p>
+  </div>
+  <div class="axess"> 
+    <img src="image/maximum.png" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/ziraat.png" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/paraf.jpg" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/bonus.png" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/yapıkredi.jpg" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/işbankası.jpg" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/enpara.png" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/fiba.png" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+  <div class="axess"> 
+    <img src="image/albaraka.jpg" width="80" height="50">
+    <p>6 TAKSİT</p> 
+  </div>
+</section>
+<section class="footer">
+  <div class="konum">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.55751916744!2d28.855733615414174!3d41.01305707930027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa5670f5002cd%3A0xdcbfefaaa8ed92b5!2zU04gQsSwTEfEsFNBWUFSIHZlIEfDnFZFTkzEsEsgU8SwU1RFTUxFUsSw!5e0!3m2!1str!2str!4v1690615461967!5m2!1str!2str" width="500" height="300""></iframe>
+  </div>
+  <div class="orta">
+    <div class="adres">
+      <i class="fa-solid fa-location-dot"></i>
+     <p><span>ADRES:</span>Soğanlı,Sevinç sokak,Köşem Apartmanı NO:5 D,Bahçelievler/İstanbul
+    </p> </div>
+    <div class="telefon">
+      <h1>7/24 Müşteri Hizmetleri:</h1>
+      <div class="flex">
+        <i class="fa-solid fa-phone"></i>
+        <p>0539 672 1372</p>
+      </div>
+  
+     </div>
+     <h2>BİZİ TAKİP EDİN</h2>
+    <div class="linkler">
+      <div class="wp"><i class="fa-brands fa-whatsapp"></i></div>
+      <div class="facebook"> <i class="fa-brands fa-facebook"></i></div>
+      <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+      <div class="youtube"><i class="fa-brands fa-youtube"></i></div>
+ </div>
+ <div class="dipnot">
+  <p>Ürün fiyatlarına KDV bedeli dahildir.</p>
+ </div>
+ <div class="dipnott">
+  <h1>SN BİLGİSAYAR VE GÜVENLİK SİSTEMLERİ</h1>
+ </div>
+  </div>
+  <div class="youtube">
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/hL5P0jjVBZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</section>
+</body>
+</html>
